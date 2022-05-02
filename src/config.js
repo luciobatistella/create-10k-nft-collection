@@ -44,7 +44,7 @@ const CONTRACT_NAME = 'LettuceHands';
 const CONTRACT_SYMBOL = 'LH';
 const CONTRACT_TYPE = 'erc721';
 const MINT_TO_ADDRESS = '0xa0Df524031a5bdB0643FfACE5B001aCe2D16eA7C';
-const CHAIN = 'rinkeby';
+const CHAIN = 'mainnet';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xa0Df524031a5bdB0643FfACE5B001aCe2D16eA7C"; // Address that will receive the royalty
