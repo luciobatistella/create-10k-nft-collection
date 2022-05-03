@@ -38,7 +38,7 @@ const extraMetadata = {
 
 // NFTPort Info
 // ** REQUIRED **
-const AUTH = "YOUR API KEY HERE";
+const AUTH = "88f2205c-a91f-401e-9dee-b889abbdc663";
 const LIMIT = 2; // Your API key rate limit
 const CONTRACT_NAME = 'LettuceHands';
 const CONTRACT_SYMBOL = 'LH';
@@ -51,7 +51,7 @@ const ROYALTY_ADDRESS = "0xa0Df524031a5bdB0643FfACE5B001aCe2D16eA7C"; // Address
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "Unknown"; // Replace with what you want the generic titles to say.
 const GENERIC_DESCRIPTION = "Unknown"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = [
